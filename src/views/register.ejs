@@ -3,8 +3,10 @@
   <%- include('partials/head.ejs') %>
   <body>
     <h1><%= title %></h1>
-    <%- include('partials/navbar.ejs') %> <% if (typeof menssage
-    !=='undefined'){%> <%= menssage %> <% } %>
+    <%- include('partials/navbar.ejs') %> 
+    <% if (typeof menssage!=='undefined'){%> 
+      <%= menssage %> 
+    <% } %>
 
     <form action="/register/add" method="post">
       <div>

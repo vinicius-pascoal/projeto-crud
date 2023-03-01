@@ -3,12 +3,12 @@ const mongoose = require('mongoose');
 function connect() {
 
   // atualizou o mongoose o comando agr e diferente
-  // mongoose.set('useNewUrlParser', true)
-  // mongoose.set('useUnifiedTopology', true)
+  //mongoose.set('useNewUrlParser', true)
+  //mongoose.set('useUnifiedTopology', true)
 
   mongoose.set('strictQuery', false);
 
-  mongoose.connect("mongodb+srv://poluclo:hbkHVTjR8EwXOEcN@poluclo0.owadlef.mongodb.net/primeir-projeto?retryWrites=true&w=majority")
+  mongoose.connect("mongodb+srv://viniciuspascoal013:4lv5EU6dkxbnpIuW@polucl0.78hzei6.mongodb.net/projetocluster?retryWrites=true&w=majority")
 
   const db = mongoose.connection
 
